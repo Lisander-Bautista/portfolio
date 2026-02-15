@@ -30,4 +30,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          npm run ng -- deploy --repo=https://github.com/Lisander-Bautista/portfolio.git --name="Lisander-Bautista" --email="lixanderinfante@gmail.com" --base-href=/portfolio/
+          npm ng deploy --repo=https://github.com/Lisander-Bautista/portfolio.git --name="Lisander-Bautista" --email="lixanderinfante@gmail.com" --base-href=/portfolio/
