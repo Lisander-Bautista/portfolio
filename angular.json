@@ -91,6 +91,9 @@
               "node_modules/preline/dist/index.js"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
